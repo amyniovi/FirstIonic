@@ -16,51 +16,45 @@ function(){
 });
 
 })
-	
+
 
 .config(function($stateProvider,$urlRouterProvider){
 
 	$stateProvider
-	.state(
+
+    .state(
 		"home", {
 			url: "/home",
-			abstract = true, 
-			templateUrl:"app/home/home.html" 
+			abstract : true,
+			templateUrl:"app/home/home.html"
 		})
-	.state(
-		"home.chats",
-		{
-			url:"/home/chats",
-			views:{
 
+	.state(
+		"home.chats",	{
+			url:"/chats",
+			views:{
 				"tab-chats" : {
 					templateUrl: "app/home/chats.html"
 				}
 			}
-			
 		})
 	.state(
-		"home.contacts",
-		{
-			url:"/home/contacts",
+		"home.contacts",	{
+			url:"/contacts",
 			views:{
-
 				"tab-contacts" : {
 					templateUrl: "app/home/contacts.html"
 				}
 			}
-			
 		})
-	.state("home.settings", 
-	{
-			url:"/home/settings",
-			views:{
 
+	.state("home.settings",	{
+			url:"/settings",
+			views:{
 				"tab-settings" : {
 					templateUrl: "app/home/settings.html"
 				}
 			}
-			
 	})
 
 	.state("app", {
@@ -68,14 +62,13 @@ function(){
       templateUrl: "app/layout/menu-layout.html"
     });
 
-	
 
 $urlRouterProvider.otherwise("/home/chats");
 });
 
 /*
 activating states:
-<a href="#/foo/bar">Go To</a>      //actual url 
+<a href="#/foo/bar">Go To</a>      //actual url
 <a ui-sref ="foo.bar">Go To</a>   //state name
 $state.go("foo.bar");  //javascript (name of state)
 */

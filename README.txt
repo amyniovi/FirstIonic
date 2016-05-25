@@ -10,11 +10,7 @@ Install Cordova:
 npm install cordova -g
 
 
-I personally had to include in the project(lib folder):
-cordova.js
-cordova_plugins.js
-
-and install cordova plugins :
+I had to install cordova plugins :
 
 1.Keyboard and
 2.statusBar

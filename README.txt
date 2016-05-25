@@ -10,19 +10,20 @@ Install Cordova:
 npm install cordova -g
 
 
-I had to install cordova plugins :
+then go inside app folder:
+C:/FirstIonic/> ionic platform add android ( or npm platform add ios)
+C:/FirstIonic/> ionic build android   ( ionic build ios)
+C:/FirstIonic/> ionic emulate android
+that adds cordova android and does a local android build then emulates the app in mobile env.
 
-1.Keyboard and
-2.statusBar
 
-as well as include them in the project
+that will also  install the plugins
 
-those are :
-cordova-plugin-statusbar-master
 Keyboard-2.0.1
+and statusbar etc
 
 
-To run app from cmnd prompt:
+To run app on browser (quicker)
 
 you go inside the folder (FirstIonic folder)
 

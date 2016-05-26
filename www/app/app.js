@@ -56,14 +56,38 @@ function(){
 				}
 			}
 	})
-
 	.state("app", {
       url: "/app",
+      abstract: true,
       templateUrl: "app/layout/menu-layout.html"
+    })
+    .state("app.payment", {
+      url: "/payment",
+      views: {
+        "mainContent": {
+          templateUrl: "app/payment/selectMethod.html"
+        }
+      }
+    })
+    .state("app.privacy", {
+      url: "/privacy",
+      views: {
+        "mainContent": {
+          templateUrl: "app/security/privacy.html"
+        }
+      }
+    })
+    .state("app.reviews", {
+      url: "/reviews",
+      views: {
+        "mainContent": {
+          templateUrl: "app/reviews/reviews.html"
+        }
+      }
     });
 
 
-$urlRouterProvider.otherwise("/home/chats");
+$urlRouterProvider.otherwise("/app/reviews");
 });
 
 /*

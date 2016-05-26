@@ -30,7 +30,7 @@ To run app on browser (quicker)
 you go inside the folder (FirstIonic folder)
 
 ```
-C:/FirstIonic/>ionic serve
+C:/FirstIonic>ionic serve
 ```
 
 (That doesnt work for me all the time, I run straight from webstorm) but it looks like crap cant get it to look like a

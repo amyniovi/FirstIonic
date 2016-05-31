@@ -61,14 +61,27 @@ function(){
       abstract: true,
       templateUrl: "app/layout/menu-layout.html"
     })
-    .state("app.payment", {
-      url: "/payment",
+    .state("app.paymentMethod", {
+      url: "/selectMethod",
       views: {
         "mainContent": {
           templateUrl: "app/payment/selectMethod.html"
         }
       }
     })
+    .state("app.paymentList",{
+      url:"/paymentList",
+      views:{"mainContent":{
+        templateUrl:"app/payment/paymentList.html"
+      }}
+    })
+      .state("app.payment",{
+        url:"/payment/:id",
+        views:{"mainContent":{
+          templateUrl:"app/payment/payment.html"
+        }}
+      }
+    )
     .state("app.privacy", {
       url: "/privacy",
       views: {
@@ -87,7 +100,7 @@ function(){
     });
 
 
-$urlRouterProvider.otherwise("/app/reviews");
+$urlRouterProvider.otherwise("/home/chats");
 });
 
 /*

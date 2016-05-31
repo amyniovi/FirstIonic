@@ -15,7 +15,7 @@ Install Cordova:
 
 Then go inside app folder:
 ```
-C:/FirstIonic/> ionic platform add android ( or npm platform add ios)
+C:/FirstIonic/> ionic platform add android ( or ionic platform add ios)
 C:/FirstIonic/> ionic build android   ( ionic build ios)
 C:/FirstIonic/> ionic emulate android
 ```

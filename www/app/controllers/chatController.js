@@ -1,3 +1,16 @@
-/**
- * Created by Amy on 24/05/2016.
- */
+(function(){
+    
+    angular.module("myChatApp").controller("chatCtrl", function chatCtrl($stateParams, $scope, chatService ){
+        var ctrl = this;
+
+        $scope.chats = chatService.fetchAll();
+
+    });
+
+
+
+    
+    
+    
+    
+}());

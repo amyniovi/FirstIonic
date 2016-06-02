@@ -33,16 +33,16 @@ angular.module("myChatApp", ["ionic", "myChatApp.controllers"])
                     url: "/chats",
                     views: {
                         "tab-chats": {
-                            templateUrl: "app/home/chats.html"
+                            templateUrl: "app/home/chats/chats.html"
                         }
                     }
                 })
             .state(
-                "home.chat", {
-                    url: "/chat/:id",
+                "home.chat-detail", {
+                    url: "/chats/:id",
                     views: {
-                        "chat-detail": {
-                            templateUrl: "app/home/chat-detail.html"
+                        "tab-chats": {
+                            templateUrl: "app/home/chats/chat-detail.html"
                         }
 
                     }

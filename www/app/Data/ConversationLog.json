@@ -4,45 +4,78 @@
     "conversationLog": [
       {
         "personId": 39483,
-        "sms": "hey you got this?",
-        "date": "",
-        "time": ""
+        "body": "hey you got this?",
+        "mime_type" : "text/plain",
+        "sent_at":"",
+        "unread_message_count": 0,
+        "metadata": {
+          "background_color": "#3c3c3c"
+        }
       },
       {
         "personId": 32,
-        "sms": "yeah dude whats up?",
-        "date": "",
-        "time": ""
+        "body": "yeah dude whats up?",
+        "mime_type" : "text/plain",
+        "sent_at":"",
+        "unread_message_count": 0,
+        "metadata": {
+          "background_color": "#3c3c3c"
+        }
       },
       {
         "personId": 32,
-        "sms": "nothing ...much ...wanna hang?",
-        "date": "",
-        "time": ""
+        "body": "nothing ...much ...wanna hang?",
+        "mime_type" : "text/plain",
+        "sent_at":"",
+        "unread_message_count": 0,
+        "metadata": {
+          "background_color": "#3c3c3c"
+        }
       }
     ]
   },
   {
-    "conversationLogId": 22,
+    "conversationLogId": 333,
     "conversationLog":
   [
     {
       "personId": 39483,
-      "sms": "how s ur exams",
-      "date": "",
-      "time": ""
+      "body": "how s ur exams",
+      "mime_type" : "text/plain",
+      "sent_at":"",
+      "unread_message_count": 0,
+      "metadata": {
+        "background_color": "#3c3c3c"
+      }
     },
     {
       "personId": 39483,
-      "sms": "need help?",
-      "date": "",
-      "time": ""
+      "body": "need help?",
+      "mime_type" : "text/plain",
+      "sent_at":"",
+      "unread_message_count": 0,
+      "metadata": {
+        "background_color": "#3c3c3c"
+      }
     },
     {
       "personId": 3963,
-      "sms": "failed man....too late...lets drink..",
-      "date": "",
-      "time": ""
+      "body": "failed man....too late...lets drink..",
+      "mime_type" : "text/plain",
+      "sent_at":"",
+      "unread_message_count": 0,
+      "metadata": {
+        "background_color": "#3c3c3c"
+      },
+    {
+      "personId": 3963,
+      "body": "/img/whateverURL",
+      "mime_type" : "image/jpeg",
+      "sent_at":"",
+      "unread_message_count": 0,
+      "metadata": {
+        "background_color": "#3c3c3c"
+      }
     }
   ]
   }

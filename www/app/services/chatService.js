@@ -35,12 +35,12 @@
                 get: function (id) {
 
                     for (var i = 0; i < Chats.length; i++) {
-                        if (Chats[i].id === id)
+                        if (Chats[i].id == id)
                             return Chats[i];
                     }
                     return null;
                 },
-
+               
                 delete: function (id) {
 
                     var chat = Chats.find(function (obj) {

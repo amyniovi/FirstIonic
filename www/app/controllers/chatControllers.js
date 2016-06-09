@@ -3,7 +3,6 @@
     angular.module("myChatApp.controllers", [])
 
         .controller("chatCtrl", function chatCtrl($stateParams, $scope, chatService) {
-            var ctrl = this;
 
             $scope.chats = chatService.fetchAll();
             $scope.remove = function (chat) {
@@ -12,16 +11,20 @@
             };
 
         })
-        .controller("chatDetailCtrl", ["$scope", "$routeParams", chatService, function ($scope, $routeParams, chatService) {
-            var chatId = $routeParams.id;
-           
-            $scope.chat = chatService.get(chatId);
-            console.log("chat name ... retrieved from the service",chat.name);
+        .controller("chatDetailCtrl", function chatDetailCtrl($scope, $stateParams, chatRepo) {
+            // var chatId = $stateParams.id;
 
-        }])
+
+            chatRepo.getChatLog().then(function (response) {
+                $scope.jsonData = response;
+            }, function (error) {
+                console.log("my logged error" + error);
+            });
+
+
+        })
 
         .controller("popupCtrl", function popupCtrl($ionicPopup, $scope) {
         });
-
 
 }());

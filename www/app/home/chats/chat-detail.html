@@ -1,10 +1,11 @@
 
 <ion-view ng-controller="chatDetailCtrl" view-title="{{chat.name}}">
   <ion-content class="padding">
-    <img ng-src="{{chat.face}}" style="width: 64px; height: 64px">
+    <img ng-src="{{chat.pic}}" style="width: 64px; height: 64px">
     <p>
       {{chat.lastText}}
     </p>
+    {{jsonData}}
   </ion-content>
 </ion-view>
 

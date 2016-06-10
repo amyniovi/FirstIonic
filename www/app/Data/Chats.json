@@ -1,8 +1,26 @@
-[
-  {
-    "id ": 12894,
-    "personId": 98776,
-    "conversationLogId": 333
-  }
-]
+{
+  "chats": [
+    {
+      "id": 0,
+      "name": "Ben Obama",
+      "lastText": "where you at",
+      "pic": "img/ben.png",
+      "conversationLogId": 2
+    },
+    {
+      "id": 1,
+      "name": "Mike Flynn",
+      "lastText": "cool ...catch you lr",
+      "pic": "img/mike.png",
+      "conversationLogId": 333
+    },
+    {
+      "id": 2,
+      "name": "Adam Weirdo",
+      "lastText": "I m running late ...",
+      "pic": "img/adam.jpg",
+      "conversationLogId": 27656
+    }
+  ]
+}
 

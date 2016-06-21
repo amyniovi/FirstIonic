@@ -1,91 +1,93 @@
-[
-  {
-    "conversationLogId": 2,
-    "lastSeen": "",
-    "conversationLog": [
-      {
-        "personId": 39483,
-        "body": "hey you got this?",
-        "mime_type": "text/plain",
-        "sent_at": "",
-        "unread_message_count": 0,
-        "metadata": {
-          "background_color": "#3c3c3c"
+{
+  "Conversations": [
+    {
+      "conversationLogId": 2,
+      "lastSeen": "",
+      "conversationLog": [
+        {
+          "personId": 39483,
+          "body": "hey you got this?",
+          "mime_type": "text/plain",
+          "sent_at": "",
+          "unread_message_count": 0,
+          "metadata": {
+            "background_color": "#3c3c3c"
+          },
+          "readFlag": 1
         },
-        "readFlag": 1
-      },
-      {
-        "personId": 32,
-        "body": "yeah dude whats up?",
-        "mime_type": "text/plain",
-        "sent_at": "",
-        "unread_message_count": 0,
-        "metadata": {
-          "background_color": "#3c3c3c"
+        {
+          "personId": 32,
+          "body": "yeah dude whats up?",
+          "mime_type": "text/plain",
+          "sent_at": "",
+          "unread_message_count": 0,
+          "metadata": {
+            "background_color": "#3c3c3c"
+          },
+          "readFlag": 1
         },
-        "readFlag": 1
-      },
-      {
-        "personId": 39483,
-        "body": "nothing ...much ...wanna hang?",
-        "mime_type": "text/plain",
-        "sent_at": "",
-        "unread_message_count": 0,
-        "metadata": {
-          "background_color": "#3c3c3c"
+        {
+          "personId": 39483,
+          "body": "nothing ...much ...wanna hang?",
+          "mime_type": "text/plain",
+          "sent_at": "",
+          "unread_message_count": 0,
+          "metadata": {
+            "background_color": "#3c3c3c"
+          }
+        }
+      ]
+    },
+    {
+      "conversationLogId": 333,
+      "lastSeen": "",
+      "conversationLog": [
+        {
+          "personId": 39483,
+          "body": "how s ur exams",
+          "mime_type": "text/plain",
+          "sent_at": "",
+          "unread_message_count": 0,
+          "metadata": {
+            "background_color": "#3c3c3c"
+          },
+          "readFlag": 1
         },
-        "readFlag": 1
-      }
-    ]
-  },
-  {
-    "conversationLogId": 333,
-    "lastSeen": "",
-    "conversationLog": [
-      {
-        "personId": 39483,
-        "body": "how s ur exams",
-        "mime_type": "text/plain",
-        "sent_at": "",
-        "unread_message_count": 0,
-        "metadata": {
-          "background_color": "#3c3c3c"
+        {
+          "personId": 39483,
+          "body": "need help?",
+          "mime_type": "text/plain",
+          "sent_at": "",
+          "unread_message_count": 0,
+          "metadata": {
+            "background_color": "#3c3c3c"
+          },
+          "readFlag": 1
         },
-        "readFlag": 1
-      },
-      {
-        "personId": 39483,
-        "body": "need help?",
-        "mime_type": "text/plain",
-        "sent_at": "",
-        "unread_message_count": 0,
-        "metadata": {
-          "background_color": "#3c3c3c"
+        {
+          "personId": 3963,
+          "body": "failed man....too late...lets drink..",
+          "mime_type": "text/plain",
+          "sent_at": "",
+          "unread_message_count": 0,
+          "metadata": {
+            "background_color": "#3c3c3c"
+          },
+          "readFlag": 1
         },
-        "readFlag": 1
-      },
-      {
-        "personId": 3963,
-        "body": "failed man....too late...lets drink..",
-        "mime_type": "text/plain",
-        "sent_at": "",
-        "unread_message_count": 0,
-        "metadata": {
-          "background_color": "#3c3c3c"
-        },
-        "readFlag": 1
-      },
-      {
-        "personId": 3963,
-        "body": "/img/whateverURL",
-        "mime_type": "image/jpeg",
-        "sent_at": "",
-        "unread_message_count": 0,
-        "metadata": {
-          "background_color": "#3c3c3c"
-        },
-        "readFlag": 0
-      }
-    ]
-  }
-]
+        {
+          "personId": 3963,
+          "body": "/img/whateverURL",
+          "mime_type": "image/jpeg",
+          "sent_at": "",
+          "unread_message_count": 0,
+          "metadata": {
+            "background_color": "#3c3c3c"
+          },
+          "readFlag": 0
+        }
+      ]
+    }
+  ]
+}
+

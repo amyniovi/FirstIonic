@@ -16,7 +16,8 @@
 
 
             chatRepo.getChatLog().then(function (response) {
-                $scope.jsonData = response;
+
+                $scope.jsonData = response.data.Conversations[0];
             }, function (error) {
                 console.log("my logged error" + error);
             });
